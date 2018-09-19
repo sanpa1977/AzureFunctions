@@ -182,7 +182,7 @@ namespace AzureFunctions
                 IEnumerable<Rating> toDoItems,
             TraceWriter log)
         {
-            log.Info("C# HTTP trigger function processed a request. Changes done for staging only");
+            log.Info("Stating New Update: C# HTTP trigger function processed a request. Changes done for staging only");
 
             int intCount = toDoItems.ToArray().Length;
 
